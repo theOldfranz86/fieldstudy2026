@@ -1,46 +1,125 @@
-checkpoints:
-  cadence_weeks: 3
+schema_version: "1.1"
+status_definitions:
+  not_started: "Milestone work has not yet been submitted."
+  approved: "Milestone approved; the group may proceed to the next phase."
+  approved_with_revision: "The group may proceed subject to a required revision submitted within 7 days."
+  suspended: "No transition to the next phase is permitted before approval."
+
+checkpoint_policy:
+  progress_report_required_for_all_groups: true
   duration_minutes: 60
-  presenting_groups_per_checkpoint:
-    min: 2
-    max: 3
-  selected_by: instructor
-  all_groups_submit_progress_report: true
-  feedback:
-    oral: presenting_groups
-    written: all_groups
+  submission_timing: "before_session"
+  submission_time: "TBD"
+  checkpoint_timing: "Same session as the milestone due date"
+  presenters_per_checkpoint: "2–3 groups selected by the instructors"
+  feedback_to_presenters: "Oral feedback during the checkpoint"
+  feedback_to_all_groups: "Written feedback after the checkpoint"
+  responsible_instructors: ["Francesco Maria Cimmino", "Florian Bürki"]
+  outcome_options: ["approved", "approved_with_revision", "suspended"]
+  approved_with_revision_rule: "Revision due within 7 calendar days."
+  suspended_rule: "The group must not start the next phase before approval."
+  workflow:
+    - "All groups submit the milestone before the indicated session begins."
+    - "The 60-minute checkpoint takes place during the same session."
+    - "Two or three groups selected by the instructors present."
+    - "Presenting groups receive oral feedback."
+    - "All groups receive written feedback."
+    - "Each group receives one of the three defined outcomes."
 
-  items:
-    - id: CP1
-      week: 3
-      title: Research framing
-      evidence: [managerial_problem, desk_research, context_analysis, research_questions]
-      decision_gate: approve_research_direction
+milestones:
+  - id: "M01"
+    title: "Problem framing, desk research and team charter"
+    due_week: "W03"
+    due_date: "2026-09-29"
+    status: "not_started"
+    submission_timing: "before_session"
+    submission_time: "TBD"
+    linked_outcomes: ["LO01", "LO06"]
+    required_artifacts:
+      - "Problem brief distinguishing managerial problem and research problem"
+      - "Context map with relevant micro and macro factors"
+      - "Traceable secondary-source record"
+      - "Stakeholder map and research question version 1"
+      - "Team charter with roles, communication, decision and conflict rules"
+      - "Progress report submitted by the group"
+    quality_gate:
+      - "The problem is specific enough to guide a feasible sequential field-study design."
+      - "Claims from desk research are traceable to appropriate sources."
+      - "The stakeholder context and intended users of results are explicit."
+      - "The team has assigned accountable roles and contribution records."
+    feedback_mode: "60-minute checkpoint: oral feedback to 2–3 presenting groups and written feedback to all groups"
+    response_if_at_risk: "Require a revised problem statement and targeted coaching before qualitative design continues."
 
-    - id: CP2
-      week: 6
-      title: From qualitative evidence to questionnaire
-      evidence: [qualitative_fieldwork_status, qualitative_findings, questionnaire_draft, methodological_link]
-      decision_gate: authorize_sphinx_programming
+  - id: "M02"
+    title: "Qualitative evidence and questionnaire version 1"
+    due_week: "W06"
+    due_date: "2026-10-20"
+    status: "not_started"
+    submission_timing: "before_session"
+    submission_time: "TBD"
+    linked_outcomes: ["LO02", "LO03", "LO04"]
+    required_artifacts:
+      - "Qualitative protocol"
+      - "Interview guide"
+      - "Sampling and recruitment rationale"
+      - "Consent and data-management note"
+      - "Evidence that each student completed at least one interview, or an approved documented recovery plan"
+      - "De-identified qualitative evidence matrix and thematic synthesis"
+      - "Traceability matrix linking qualitative evidence to questionnaire items, variables and intended analyses"
+      - "Quantitative questionnaire version 1 ready for Sphinx programming and pre-test"
+      - "Progress report submitted by the group"
+    quality_gate:
+      - "Qualitative method, sample and interview guide are aligned with the research question."
+      - "Thematic claims are traceable to de-identified evidence and include divergent cases."
+      - "Questionnaire items are justified by qualitative evidence or an explicitly labelled external requirement."
+      - "Consent, privacy and data-management risks are addressed according to confirmed rules."
+    feedback_mode: "60-minute checkpoint: oral feedback to 2–3 presenting groups and written feedback to all groups"
+    response_if_at_risk: "Suspend questionnaire programming or launch until the qualitative evidence, traceability and instrument are approved."
 
-    - id: CP3
-      week: 9
-      title: Data collection and analysis readiness
-      evidence: [fieldwork_status, response_profile, data_quality_checks, analysis_plan]
-      decision_gate: authorize_final_analysis
+  - id: "M03"
+    title: "Quantitative dataset, quality control and analysis plan"
+    due_week: "W09"
+    due_date: "2026-11-10"
+    status: "not_started"
+    submission_timing: "before_session"
+    submission_time: "TBD"
+    linked_outcomes: ["LO03", "LO04", "LO06"]
+    required_artifacts:
+      - "Sphinx dataset with collection status documented"
+      - "Response count and evidence of progress toward or attainment of at least 300 complete usable responses"
+      - "Documented recruitment contribution and relevant analytic responsibility of each group within the shared course sample"
+      - "Quality-control record"
+      - "Data dictionary"
+      - "Evidence portfolio integrating qualitative and quantitative provenance"
+      - "Interim findings"
+      - "Analysis plan"
+      - "Progress report submitted by the group"
+    quality_gate:
+      - "Collection is closed or formally bounded by an approved recovery decision."
+      - "The target is at least 300 complete usable responses; exclusions and the final analytic sample are documented."
+      - "Evidence provenance, cleaning decisions and analytic steps are traceable."
+      - "Observed results are distinguished from interpretation, and data-quality limitations are explicit."
+    feedback_mode: "60-minute checkpoint: oral feedback to 2–3 presenting groups and written feedback to all groups"
+    response_if_at_risk: "Define a focused recovery plan for collection, quality control or analysis; additional collection is allowed only when ethically and logistically feasible."
 
-    - id: CP4
-      week: 12
-      title: Interpretation and defense readiness
-      evidence: [integrated_results, limitations, recommendations, oral_storyline]
-      decision_gate: authorize_final_defense
-
-progress_report:
-  max_pages: 1
-  required_sections:
-    - completed_deliverables
-    - current_work
-    - methodological_decisions
-    - problems_and_risks
-    - next_deadline
-    - support_requested
+  - id: "M04"
+    title: "Integrated recommendation package and oral readiness"
+    due_week: "W11"
+    due_date: "2026-11-24"
+    status: "not_started"
+    submission_timing: "before_session"
+    submission_time: "TBD"
+    linked_outcomes: ["LO04", "LO05", "LO06"]
+    required_artifacts:
+      - "Integrated qualitative and quantitative findings with stated limitations"
+      - "Evidence-informed recommendation package"
+      - "Oral presentation deck and speaking plan"
+      - "Individual contribution record"
+      - "Progress report submitted by the group"
+    excluded_artifact: "No written report is required."
+    quality_gate:
+      - "Recommendations follow from the documented integrated evidence and are proportionate to uncertainty."
+      - "Alternative interpretations and practical constraints are acknowledged."
+      - "The oral presentation is intelligible to the defined stakeholder audience and each member can defend the method."
+    feedback_mode: "60-minute checkpoint: oral feedback to 2–3 presenting groups and written feedback to all groups"
+    response_if_at_risk: "Prioritise evidence-to-claim coherence and reduce unsupported scope before the assessed oral."

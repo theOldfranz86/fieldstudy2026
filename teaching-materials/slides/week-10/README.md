@@ -1,3 +1,5 @@
-# Week 10 — Analisi quantitativa in Sphinx
+# W10 — Analyse quantitative
 
-Produrre qui: `SESSION_PLAN.md`, `SLIDE_BRIEF.md`, `COACHING_GUIDE.md`, `DELIVERABLE.md`, `QUALITY_CHECKLIST.md` e, dopo approvazione, `slides.pptx`.
+Focus officiel : analyses descriptives, comparaisons pertinentes, visualisations et interprétations qualifiées.
+
+Produire ici les cinq fichiers de planification hebdomadaire avant tout `W10-slides.pptx`.

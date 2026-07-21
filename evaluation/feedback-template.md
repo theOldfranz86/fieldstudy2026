@@ -1,17 +1,28 @@
-# Feedback scritto al gruppo
+# Template di feedback
 
-## Stato
+- Gruppo o studente:
+- Milestone o componente:
+- Revisore:
+- Data:
+- Stato milestone: approved / approved_with_revision / suspended
+- Se approved_with_revision: revisione dovuta entro 7 giorni
 
-- Verde: avanzamento sufficiente.
-- Giallo: correzioni necessarie.
-- Rosso: rischio serio per la milestone successiva.
+## Riscontro fondato sulle evidenze
 
-## Evidenze positive
+- Claim: il punto di forza o il problema principale è...
+- Evidenze osservate:
+- Criterio o learning outcome di riferimento:
+- Limite, incertezza o spiegazione alternativa:
+- Tracciabilità problema → metodo → evidenza → analisi → raccomandazione:
 
-## Problemi metodologici
+## Prossimo passo
 
-## Correzioni obbligatorie
+- Azione prioritaria:
+- Output atteso:
+- Responsabile:
+- Data di verifica:
 
-## Miglioramenti consigliati
+## Esito milestone, se applicabile
 
-## Prossima verifica
+- approved / approved_with_revision / suspended.
+- Motivazione rispetto al quality gate:

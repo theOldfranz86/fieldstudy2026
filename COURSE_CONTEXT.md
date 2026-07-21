@@ -1,50 +1,55 @@
 # Contesto del corso
 
-## Identità
+Stato: architettura pronta per la produzione dei materiali settimanali; le decisioni marcate `TBD` non bloccano la progettazione di W01.
 
-- Titolo operativo: Field Study 2 – Application
-- Anno accademico: 2026–2027
-- Durata prevista: 12 settimane applicative
-- Durata settimanale: 3 ore
-- Studenti: circa 38
-- Gruppi: circa 9
-- Strumento principale: Sphinx
-- Lingua definitiva dei materiali: da confermare
+## Identità istituzionale
 
-## Finalità
+- Corso: Field Study 2 – Application.
+- Istituzione e programma: HES-SO Valais-Wallis – Haute école de gestion.
+- Periodo accademico: 2026–2027.
+- Crediti: 7 ECTS.
+- Lingua di insegnamento: francese.
+- Docenti: Francesco Maria Cimmino e Florian Bürki.
+- Partecipanti: 38 studenti, circa 9 gruppi da 4–5.
 
-Gli studenti realizzano uno studio di mercato completo a partire da un problema manageriale reale proposto da un’impresa o istituzione. Devono riformulare il problema in domande di ricerca, selezionare e applicare metodi qualitativi e quantitativi, raccogliere dati, analizzarli e formulare raccomandazioni manageriali.
+## Scenario applicativo
 
-## Architettura della sessione
+- Mandante: Maison Maye.
+- Brief del mandante: 22.09.2026, durante W02.
+- Problema manageriale: `TBD` fino al brief.
+- Beneficiari e decisione manageriale da supportare: `TBD` fino al brief.
+- Continuità con Field Study 1 o prerequisiti equivalenti: da confermare prima dell'inizio del semestre.
 
-Ogni lezione combina:
+## Formato e disegno di ricerca
 
-1. 30–60 minuti di dimostrazione, richiamo o briefing metodologico;
-2. lavoro di progetto in gruppo;
-3. coaching del docente;
-4. verifica dell’avanzamento e preparazione della scadenza successiva.
+- 12 sessioni da 180 minuti.
+- Formato: breve briefing/apporto metodologico, workshop, lavoro di progetto e coaching.
+- Disegno sequenziale: fase qualitativa, sintesi delle evidenze, costruzione e pre-test del questionario, raccolta quantitativa in Sphinx, analisi integrata e raccomandazioni.
+- Minimo qualitativo: un'intervista per studente, almeno 38 interviste complessive.
+- Minimo quantitativo: 300 risposte complete utilizzabili per un campione condiviso a livello di corso; il contributo di reclutamento dei gruppi va distribuito prima di W07 e il numero analitico finale va documentato dopo il quality control.
+- Output finale di gruppo: presentazione orale, portfolio di evidenze e recommendation package; nessun rapporto scritto richiesto.
+- Disponibilità Sphinx e accesso per docenti e studenti: confermati.
 
-## Mandato
+## Vincoli e salvaguardie
 
-Il brief del mandante è previsto nella seconda settimana. La struttura del corso deve restare astratta e riutilizzabile con mandati diversi. Le informazioni specifiche saranno conservate nella cartella `client-brief/`.
+- Accesso al campo e disponibilità dei partecipanti: `TBD` fino alla definizione del problema e del target.
+- Approvazione etica e procedure istituzionali: da confermare con istituzione e mandante prima della raccolta.
+- Consenso, anonimizzazione o pseudonimizzazione e data minimisation: obbligatori quando applicabili.
+- Dati grezzi: non pubblicabili; accesso e conservazione da validare con istituzione e Maison Maye.
+- Proprietà dei dati e dei prodotti: non attribuire automaticamente una licenza Creative Commons; regole definitive da validare con istituzione e mandante.
+- Rischi logistici, aule, computer e piano alternativo di accesso al campo: `TBD` prima della relativa attività.
 
-## Approccio qualitativo
+## Regole AI e dati
 
-Ogni studente conduce almeno un’intervista. Con 38 studenti, il minimo teorico è quindi 38 interviste complessive. Distribuzione, profili, campionamento, modalità di analisi e tecniche complementari dipendono dal mandato e devono essere giustificati.
+- L'uso dell'AI è autorizzato e deve essere dichiarato quando significativo.
+- Gli studenti restano responsabili dei contenuti, delle fonti e delle decisioni metodologiche.
+- È vietato inserire in strumenti pubblici dati personali, trascrizioni identificabili o informazioni riservate del mandante.
+- Gli output devono distinguere dati, interpretazioni, assunzioni e contenuti generati o adattati con AI.
 
-## Approccio quantitativo
+## Decisioni non bloccanti per W01
 
-Il questionario viene costruito, programmato, distribuito e analizzato in Sphinx. La transizione tra questionario definitivo, raccolta, controllo qualità e analisi deve essere strettamente pianificata.
-
-## Checkpoint
-
-I checkpoint avvengono ogni 3 settimane e durano un’ora. Il docente seleziona 2–3 gruppi per la presentazione. Tutti i gruppi consegnano un progress report e ricevono feedback scritto; i gruppi presentatori ricevono anche feedback orale.
-
-## Valutazione
-
-- 50%: progetto di gruppo, valutato oralmente, incluse difesa metodologica e interpretazione.
-- 50%: esame individuale di 1 ora e 30 minuti, basato sulla risoluzione di un caso pratico.
-
-## Materiali
-
-Il corso è nuovo. Slide, template, handout, esempi, rubriche e casi d’esame devono essere costruiti progressivamente e conservati nel repository.
+- Data esatta, strumenti consentiti, soglia e scala dei voti dell'esame individuale.
+- Durata e struttura dettagliata dell'orale, incluse le domande individuali.
+- Regole istituzionali per accomodamenti, ritardi, recupero/resit e moderazione.
+- Regole definitive di proprietà, conservazione e accesso ai dati.
+- Identità visiva istituzionale ufficialmente verificata e template PowerPoint definitivo.

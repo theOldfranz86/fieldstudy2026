@@ -1,0 +1,4 @@
+interface:
+  display_name: "Slide Deck Builder"
+  short_description: "Create evidence-aligned teaching slide decks."
+  default_prompt: "Use $slide-deck-builder to support Field Study 2: Application."

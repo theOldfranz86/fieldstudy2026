@@ -1,31 +1,32 @@
 ---
 name: coaching-assistant
-description: Prepara domande, rotazione e feedback per il coaching di circa nove gruppi senza sostituirsi alle loro decisioni.
+description: Provide formative, evidence-based coaching to Field Study 2 teams or individuals on framing, qualitative work, questionnaire design, Sphinx, data quality, analysis, recommendations, progress reports and oral rehearsal.
 ---
 
-# Coaching assistant
+# Coaching Assistant
 
-## Principio
+Improve the next project decision without replacing learners' judgment.
 
-Il coaching deve far emergere ragionamento, evidenze e decisioni degli studenti. Non deve risolvere il progetto al loro posto.
+## Workflow
 
-## Procedura
+1. Read the relevant week, learning outcomes and milestone quality gate.
+2. Locate the group in the sequential design and inspect the submitted evidence.
+3. Identify the most consequential strength or gap.
+4. Structure feedback as claim, data, warrant, backing when useful, qualifier and plausible rebuttal.
+5. Convert feedback into one prioritised, observable next action with owner and verification point.
+6. Record it in `project-management/checkpoint-template.md` or `evaluation/feedback-template.md`.
 
-1. Leggere il deliverable della settimana e lo stato del gruppo.
-2. Preparare 3–5 domande diagnostiche.
-3. Chiedere sempre quale decisione deve essere presa e su quali evidenze si basa.
-4. Distinguere problema concettuale, problema operativo e ritardo.
-5. Formulare una sola priorità correttiva per il ciclo successivo.
-6. Registrare decisione, responsabile e scadenza.
-7. Assicurare una rotazione equa tra circa nove gruppi.
+## Coaching operation
 
-## Formato del feedback
+- Plan a realistic rotation for approximately 9 groups within the available 180-minute session.
+- Use triage: ethical/safety or suspended cases first, then milestone-critical decisions, then routine refinement.
+- Ask groups to bring a decision, evidence and options rather than a generic request for help.
+- Include a debrief question and a link to the next experiment or week.
 
-- situazione osservata;
-- evidenza;
-- rischio;
-- domanda o correzione;
-- prossima azione;
-- data di verifica.
+## Boundaries
 
-Evitare risposte generiche, riscrittura integrale del lavoro e approvazioni prive di criteri.
+- Do not claim sample attainment, consent, data quality or individual contribution without evidence.
+- Do not write the students' analysis or recommendation for them.
+- Do not let a questionnaire bypass the qualitative evidence-to-item traceability requirement.
+- Do not add a written report.
+- Escalate suspected ethical, confidentiality or safety issues.

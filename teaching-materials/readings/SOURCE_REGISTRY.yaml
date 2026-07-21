@@ -1,0 +1,74 @@
+schema_version: "1.0"
+purpose: "Register external teaching sources used to inform Field Study 2: Application materials."
+separation_rule: "External sources remain distinct from original course materials produced in teaching-materials/."
+adaptation_rule: "Any adapted content must retain author, title, licence and source URL."
+
+sources:
+  - id: "SRC01_CUSTOMER_INSIGHTS"
+    title: "Customer Insights – Second Edition"
+    authors:
+      - "Aila Khan"
+      - "Mohammad Munir Hossain"
+      - "Sabreena Zoha Amin"
+    publisher: "Western Sydney University"
+    publication_year: 2023
+    url: "https://open.umn.edu/opentextbooks/textbooks/1664"
+    role: "primary_methodological_source"
+    licence: "CC BY-NC"
+    licence_url: "https://creativecommons.org/licenses/by-nc/"
+    access: "Open textbook; online, eBook and PDF formats listed by the Open Textbook Library."
+    relevant_topics:
+      - "Research ethics"
+      - "Secondary and primary research"
+      - "Qualitative and quantitative research"
+      - "Research design"
+      - "Focus groups and observational research"
+      - "Questionnaire design and sampling"
+      - "Research errors"
+      - "Descriptive statistics and association"
+      - "Communicating insights"
+      - "The process from generating to using customer insights"
+    verification:
+      checked_on: "2026-07-21"
+      checked_metadata: ["authors", "title", "publisher", "publication year", "licence", "table of contents"]
+
+  - id: "SRC02_MARKETING_RESEARCH_IN_PRACTICE"
+    title: "Marketing Research in Practice"
+    authors: ["Jennifer White"]
+    publisher: "Conestoga College"
+    url: "https://ecampusontario.pressbooks.pub/marketingresearchinpractice/"
+    role: "instructor_reference"
+    licence: "CC BY-NC-SA 4.0, except where otherwise noted"
+    licence_url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    access: "Open Pressbooks resource; the resource is identified as being in development."
+    source_specific_restrictions:
+      - "The site states that the resource and its media may not be used to train or otherwise be ingested into large language models or generative AI software without Conestoga College permission."
+    relevant_topics:
+      - "Marketing research versus market research"
+      - "Research designs"
+      - "Qualitative data"
+    verification:
+      checked_on: "2026-07-21"
+      checked_metadata: ["author", "title", "publisher", "licence", "development status", "module list"]
+
+  - id: "SRC03_SAGE_TEACHING_MATERIALS"
+    title: "SAGE Research Methods Teaching Materials"
+    authors: ["SAGE Publishing", "Nuffield Foundation", "ESRC", "Q-Step Centres"]
+    publisher: "SAGE Research Methods Community"
+    url: "https://researchmethodscommunity.sagepub.com/teaching-materials"
+    role: "supplementary_activities_worksheets_examples"
+    licence: "CC BY-NC for the teaching documents, according to the collection page"
+    licence_url: "https://creativecommons.org/licenses/by-nc/"
+    access: "Online collection of presentations, worksheets, assignments and other teaching resources."
+    source_specific_restrictions:
+      - "Verify the attribution and licence information of each item before reuse or adaptation."
+    relevant_topics:
+      - "Identifying and planning research"
+      - "Research design"
+      - "Data collection"
+      - "Data analysis"
+      - "Communicating research"
+      - "Teaching methods and tools/technology"
+    verification:
+      checked_on: "2026-07-21"
+      checked_metadata: ["collection purpose", "contributors", "licence statement", "research-stage categories"]

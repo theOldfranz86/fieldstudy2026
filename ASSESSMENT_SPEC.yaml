@@ -1,37 +1,59 @@
-assessment:
-  group_project:
-    weight_percent: 50
-    mode: oral
-    group_based: true
-    purpose: evaluate_collective_project_quality_and_methodological_defense
-    dimensions:
-      - managerial_problem_understanding
-      - methodological_design
-      - data_collection_quality
-      - analysis_quality
-      - interpretation
-      - managerial_recommendations
-      - oral_defense
-    ai_rationale: oral_defense_reduces_unverified_ai_generated_work
+schema_version: "1.0"
+assessment_policy:
+  grading_scale: "TBD"
+  individual_accountability_required: true
+  written_report_required: false
+  weight_total_required: 100
+  publication_gate:
+    - "Assign all component weights."
+    - "Verify that graded component weights sum to 100; formative-only components are excluded from the graded total."
+    - "Confirm accommodation, resit and academic-integrity rules."
 
-  individual_exam:
+  graded_weight_total: 100
+  formative_only_components: ["A3_PROJECT_PROCESS"]
+
+components:
+  - id: "A1_GROUP_ORAL"
+    title: "Group oral presentation"
     weight_percent: 50
+    timing: "01 December 2026 (W12)"
+    duration_minutes: null
+    duration_status: "TBD"
+    detailed_structure: "TBD, including timing, order and individual questions"
+    evidence: ["Oral delivery", "Responses to questions", "Supporting presentation deck", "Evidence portfolio and recommendation package"]
+    linked_outcomes: ["LO01", "LO04", "LO05", "LO06"]
+    rubric: "evaluation/group-oral-rubric.md"
+    assessment_mode: "Oral assessment; no written report. Individual adjustment only if institutionally approved and documented."
+
+  - id: "A2_INDIVIDUAL_EXAM"
+    title: "Individual applied-methods examination"
+    weight_percent: 50
+    timing: "11–23 January 2027; exact date TBD"
     duration_minutes: 90
-    mode: practical_case
-    individual: true
-    competencies:
-      - diagnose_managerial_problem
-      - formulate_research_questions
-      - select_methodology
-      - critique_questionnaire
-      - interpret_sphinx_outputs
-      - identify_limitations
-      - formulate_recommendations
+    format: "Individual written practical case"
+    permitted_tools: "TBD"
+    passing_threshold: "TBD"
+    evidence: ["Individual written response to a practical case"]
+    linked_outcomes: ["LO02", "LO03", "LO04", "LO05"]
+    specification: "evaluation/individual-exam-spec.md"
+    assessment_mode: "Individual assessment under confirmed conditions."
 
-open_decisions:
-  - exact_oral_duration_per_group
-  - individual_questions_during_group_oral
-  - milestone_contribution_to_group_grade
-  - late_submission_policy
-  - authorized_ai_use
-  - final_language
+  - id: "A3_PROJECT_PROCESS"
+    title: "Project process and milestone evidence"
+    weight_percent: 0
+    timing: "Continuous; reviewed at M01–M04"
+    evidence: ["Checkpoint artifacts", "Evidence log", "Contribution and reflection record"]
+    linked_outcomes: ["LO01", "LO02", "LO03", "LO04", "LO05", "LO06"]
+    feedback_template: "evaluation/feedback-template.md"
+    assessment_mode: "Formative only; contributes 0% to the final grade. Use criterion-based review of documented process and do not infer contribution without evidence."
+
+integrity_and_fairness:
+  evidence_requirements:
+    - "Attribute sources, data and individual contributions."
+    - "AI use is authorised and must be declared when significant; students remain responsible for the content."
+    - "Do not enter personal data, identifiable transcripts or client-confidential information into public tools."
+    - "Protect participant confidentiality and restricted data; obtain consent, anonymise where applicable and do not publish raw data."
+    - "Do not assign a Creative Commons licence automatically; validate ownership rules with the institution and client."
+  moderation:
+    - "Calibrate assessors against the rubric before the first assessed oral."
+    - "Retain a concise rationale for borderline or adjusted decisions."

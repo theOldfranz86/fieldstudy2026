@@ -1,3 +1,5 @@
-# Week 05 — Fieldwork e analisi qualitativa
+# W05 — Fieldwork qualitatif et synthèse
 
-Produrre qui: `SESSION_PLAN.md`, `SLIDE_BRIEF.md`, `COACHING_GUIDE.md`, `DELIVERABLE.md`, `QUALITY_CHECKLIST.md` e, dopo approvazione, `slides.pptx`.
+Focus officiel : au moins un entretien par étudiant, matrice de preuves désidentifiée et thèmes émergents.
+
+Produire ici les cinq fichiers de planification hebdomadaire avant tout `W05-slides.pptx`.

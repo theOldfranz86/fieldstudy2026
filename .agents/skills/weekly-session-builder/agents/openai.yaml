@@ -1,0 +1,4 @@
+interface:
+  display_name: "Weekly Session Builder"
+  short_description: "Build aligned weekly learning sessions."
+  default_prompt: "Use $weekly-session-builder to support Field Study 2: Application."

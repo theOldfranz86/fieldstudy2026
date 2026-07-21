@@ -1,0 +1,4 @@
+interface:
+  display_name: "Course Orchestrator"
+  short_description: "Coordinate course specifications and delivery."
+  default_prompt: "Use $course-orchestrator to support Field Study 2: Application."

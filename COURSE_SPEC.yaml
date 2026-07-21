@@ -1,60 +1,151 @@
+schema_version: "1.1"
 course:
-  id: field-study-2-application
-  academic_year: 2026-2027
-  duration_weeks: 12
-  weekly_hours: 3
-  students: 38
-  groups_approx: 9
-  delivery_mode: project_based
-  primary_tool: Sphinx
+  id: "field-study-2-application"
+  title: "Field Study 2 – Application"
+  lifecycle_status: "ready_for_weekly_material_production"
+  academic_period: "2026–2027"
+  language: "French"
+  credits: 7
+  coordinator: "Francesco Maria Cimmino"
+  instructors: ["Francesco Maria Cimmino", "Florian Bürki"]
+  institution: "HES-SO Valais-Wallis – Haute école de gestion"
+  prerequisites:
+    - "Field Study 1 or equivalent preparation in research design and academic integrity; formal prerequisite rule TBD."
 
-session_model:
-  briefing_minutes_min: 30
-  briefing_minutes_max: 60
-  remaining_time: group_work_and_coaching
-  required_components:
-    - methodological_refresh
-    - demonstration_or_example
-    - group_work
-    - coaching
-    - progress_check
+cohort:
+  expected_students: 38
+  group_size:
+    minimum: 4
+    maximum: 5
+  expected_groups: 9
 
-pedagogy:
-  - project_based_learning
-  - authentic_assessment
-  - just_in_time_teaching
-  - formative_feedback
-  - milestone_based_learning
-  - individual_accountability
-  - collective_responsibility
+purpose:
+  statement: "Apply a sequential field-study process to Maison Maye's managerial problem and produce ethically gathered, traceable evidence and appropriately qualified recommendations."
+  project_mode: "Team-based applied field study with documented individual accountability."
+  stakeholder_context: "Maison Maye; client brief on 2026-09-22; managerial problem TBD until the brief."
 
-qualitative_phase:
-  minimum_interviews_per_student: 1
-  total_minimum_interviews: 38
-  additional_design_decisions: mandate_dependent
-  methodological_freedom: true
-  required_justification:
-    - participant_profiles
-    - sampling_strategy
-    - interview_guide
-    - data_collection
-    - analysis_method
-    - link_to_quantitative_phase
+delivery:
+  planned_weeks: 12
+  session_length_minutes: 180
+  session_format: "Short methodological briefing followed by workshop, group project work and coaching."
+  briefing_minutes:
+    minimum: 30
+    maximum: 60
+  required_session_components:
+    - "Activation or concrete experience"
+    - "Reflection and problematisation"
+    - "Targeted methodological input"
+    - "Workshop and application to the project"
+    - "Group coaching and formative feedback"
+    - "Debriefing and preparation for the next week"
+  required_tools:
+    - name: "Sphinx"
+      purpose: "Questionnaire programming, pre-test, quantitative data collection and analysis"
+      availability: "Confirmed for students and instructors"
+  accessibility_requirements: "TBD"
 
-quantitative_phase:
-  platform: Sphinx
-  required_flow:
-    - questionnaire_design
-    - programming
-    - pretest
-    - launch
-    - data_collection
-    - closure
-    - quality_control
-    - analysis
-    - interpretation
+methodology:
+  design: "sequential_qualitative_to_quantitative"
+  integration_logic: "Qualitative evidence must inform questionnaire content through a documented traceability matrix; qualitative and quantitative findings are integrated before recommendations."
+  qualitative_phase:
+    minimum_interviews_per_student: 1
+    minimum_interviews_total: 38
+    required_elements:
+      - "Sampling and recruitment rationale"
+      - "Interview guide"
+      - "Consent and data-management note"
+      - "Interview evidence matrix"
+      - "Documented thematic synthesis"
+    mandatory_evidence_for_questionnaire:
+      - "Recurring themes and needs or pain points"
+      - "Vocabulary and formulations used by participants"
+      - "Decision criteria, attributes and dimensions considered relevant"
+      - "Hypotheses, contrasts or segments to test quantitatively"
+      - "Response options, categories or ranges grounded in the interviews"
+      - "Anomalies, divergent cases and plausible alternative explanations"
+  integration_point:
+    timing: "Before questionnaire programming and pre-test"
+    required_artifact: "Traceability matrix linking qualitative evidence, questionnaire items, variables and intended analyses"
+    privacy_rule: "Use de-identified summaries or codes; do not insert identifiable quotations or transcripts into public tools."
+  quantitative_phase:
+    platform: "Sphinx"
+    minimum_completed_usable_responses: 300
+    sample_scope: "Shared course-level study sample; allocation of recruitment contributions across groups is TBD before W07."
+    group_accountability: "Each group documents its recruitment contribution, quality checks and relevant analytic work."
+    analytic_sample_rule: "Report the final usable sample after documented quality control."
+    required_flow:
+      - "Questionnaire design from qualitative evidence"
+      - "Sphinx programming"
+      - "Pre-test and revision log"
+      - "Launch and response monitoring"
+      - "Collection closure"
+      - "Quality control and data dictionary"
+      - "Descriptive and relevant bivariate analysis"
+      - "Interpretation integrated with qualitative findings"
 
-mandate:
-  briefing_week: 2
-  abstract_from_specific_client: true
-  specific_materials_path: client-brief
+learning_outcomes:
+  - id: "LO01"
+    statement: "Frame an applied managerial problem, stakeholder context and feasible research question using the client brief and relevant desk research."
+  - id: "LO02"
+    statement: "Design a feasible, ethically appropriate sequential qualitative-to-quantitative field-study protocol."
+  - id: "LO03"
+    statement: "Collect, document, quality-control and manage qualitative and quantitative field evidence responsibly, including use of Sphinx."
+  - id: "LO04"
+    statement: "Analyse qualitative and quantitative evidence systematically and distinguish findings, interpretation, inference and assumptions."
+  - id: "LO05"
+    statement: "Integrate evidence into actionable recommendations with explicit scope, limitations and uncertainty."
+  - id: "LO06"
+    statement: "Collaborate professionally, document individual contributions and communicate the project process and conclusions clearly."
+
+project:
+  required_outputs:
+    - "Problem brief, desk-research record and team charter"
+    - "Qualitative protocol, de-identified evidence matrix and thematic synthesis"
+    - "Questionnaire traceability matrix, programmed Sphinx questionnaire and pre-test log"
+    - "Quality-controlled quantitative dataset, data dictionary and analysis record"
+    - "Evidence portfolio, recommendation package and oral presentation"
+  written_report_required: false
+  evidence_standard:
+    - "Maintain traceable links among question, method, evidence, questionnaire items, analysis and recommendation."
+    - "Separate observed data, interpretation, inference and assumptions."
+    - "State limitations, uncertainty and plausible alternative explanations."
+  ethical_requirements:
+    - "Confirm institutional and client requirements before participant contact or data collection."
+    - "Use informed consent, data minimisation, de-identification and secure storage when applicable."
+
+assessment:
+  components:
+    - id: "A1_GROUP_ORAL"
+      title: "Group oral presentation"
+      weight_percent: 50
+      linked_outcomes: ["LO01", "LO04", "LO05", "LO06"]
+    - id: "A2_INDIVIDUAL_EXAM"
+      title: "Individual written practical case"
+      weight_percent: 50
+      linked_outcomes: ["LO02", "LO03", "LO04", "LO05"]
+    - id: "A3_PROJECT_PROCESS"
+      title: "Project process and milestone evidence"
+      weight_percent: 0
+      linked_outcomes: ["LO01", "LO02", "LO03", "LO04", "LO05", "LO06"]
+      assessment_mode: "Formative only; contributes 0% to the final grade."
+  graded_weight_total: 100
+
+ai_and_data_rules:
+  ai_use: "Authorised; declare use when significant; students remain responsible for content."
+  public_tools_prohibition:
+    - "Do not enter personal data."
+    - "Do not enter identifiable transcripts."
+    - "Do not enter confidential information from Maison Maye."
+  data_governance:
+    - "Obtain consent and de-identify data when applicable."
+    - "Do not publish raw data."
+    - "Do not assign a Creative Commons licence automatically."
+    - "Validate ownership, access and retention rules with the institution and Maison Maye."
+
+governance:
+  source_of_truth:
+    - "COURSE_SPEC.yaml"
+    - "COURSE_SCHEDULE.yaml"
+    - "MILESTONES.yaml"
+    - "ASSESSMENT_SPEC.yaml"
+  change_control: "Update dependent Markdown materials after changing an authoritative YAML specification."

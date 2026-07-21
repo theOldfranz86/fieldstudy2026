@@ -1,0 +1,4 @@
+interface:
+  display_name: "Course Quality Review"
+  short_description: "Audit alignment, quality, and course readiness."
+  default_prompt: "Use $course-quality-review to support Field Study 2: Application."

@@ -1,14 +1,12 @@
-# Learning outcomes
+# Risultati di apprendimento
 
-Al termine del corso, lo studente dovrebbe essere in grado di:
+| ID | Risultato di apprendimento | Evidenze principali |
+| --- | --- | --- |
+| LO01 | Inquadrare un problema manageriale applicato, il contesto degli stakeholder e una domanda di ricerca fattibile mediante brief e desk research. | Problem brief, mappa di contesto, fonti secondarie, domanda di ricerca |
+| LO02 | Progettare un protocollo sequenziale qualitativo → quantitativo, fattibile ed eticamente appropriato. | Protocollo, campionamento, guida d'intervista, matrice evidenza-item, questionario e pre-test |
+| LO03 | Raccogliere, documentare, controllare e gestire responsabilmente evidenze qualitative e quantitative, anche con Sphinx. | Evidence matrix, dataset, quality-control record, data dictionary, registro decisioni |
+| LO04 | Analizzare sistematicamente evidenze qualitative e quantitative distinguendo risultati, interpretazioni, inferenze e assunzioni. | Sintesi tematica, analisi Sphinx, claim-evidence map, risultati qualificati |
+| LO05 | Integrare le evidenze in raccomandazioni applicative con ambito, limiti e incertezza espliciti. | Portfolio di evidenze, recommendation package, analisi di vincoli e alternative |
+| LO06 | Collaborare professionalmente, documentare i contributi individuali e comunicare processo e conclusioni con chiarezza. | Team charter, progress report, contribution record, presentazione orale |
 
-1. tradurre un problema manageriale in un problema di ricerca;
-2. utilizzare fonti secondarie per descrivere contesto e mercato;
-3. progettare e realizzare una raccolta qualitativa coerente;
-4. trasformare evidenze qualitative in un questionario quantitativo;
-5. programmare, testare e distribuire un questionario in Sphinx;
-6. controllare la qualità dei dati;
-7. realizzare analisi pertinenti;
-8. interpretare i risultati distinguendo evidenza e inferenza;
-9. formulare raccomandazioni manageriali difendibili;
-10. spiegare e difendere oralmente le proprie scelte metodologiche.
+La copertura sommativa è distribuita tra `A1_GROUP_ORAL` e `A2_INDIVIDUAL_EXAM`; `A3_PROJECT_PROCESS` collega tutti i learning outcomes ma resta esclusivamente formativa.

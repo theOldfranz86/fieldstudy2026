@@ -1,3 +1,5 @@
-# Week 03 — Desk research e checkpoint 1
+# W03 — Desk research et question de recherche
 
-Produrre qui: `SESSION_PLAN.md`, `SLIDE_BRIEF.md`, `COACHING_GUIDE.md`, `DELIVERABLE.md`, `QUALITY_CHECKLIST.md` e, dopo approvazione, `slides.pptx`.
+Focus officiel : contexte micro/macro, sources secondaires, question de recherche v1 et checkpoint M01.
+
+Produire ici les cinq fichiers de planification hebdomadaire avant tout `W03-slides.pptx`.

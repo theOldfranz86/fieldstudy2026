@@ -1,5 +1,15 @@
 # Modello pedagogico
 
-Il progetto reale costituisce il filo conduttore del corso. Il ciclo settimanale combina briefing metodologico breve, applicazione immediata, coaching, deliverable osservabile e feedback formativo. I checkpoint ogni tre settimane rendono visibili avanzamento, decisioni, rischi e azioni correttive.
+Il quadro pedagogico autorevole è [PEDAGOGICAL_FRAMEWORK.md](PEDAGOGICAL_FRAMEWORK.md). Questo file ne fornisce soltanto una sintesi operativa e non costituisce una seconda fonte di verità.
 
-Il corso non deve trasformarsi in semplice lavoro assistito. Ogni attività deve rendere esplicite la decisione metodologica, la sua giustificazione e il criterio con cui sarà valutata.
+## Principi operativi
+
+- Usare il mandato Maison Maye come filo conduttore di project-based ed experiential learning.
+- Progettare ogni sessione come ciclo adattabile: Concrete Experience, Reflective Observation, Abstract Conceptualization, Active Experimentation.
+- Allineare learning outcome, obiettivi osservabili, attività, output, feedback e preparazione alla settimana seguente.
+- Applicare nella stessa sessione ogni apporto metodologico introdotto.
+- Usare i checkpoint come cicli di presentazione, riflessione, feedback, revisione e nuova sperimentazione.
+- Separare evidenze, interpretazioni, inferenze, assunzioni e raccomandazioni.
+- Documentare responsabilità e contributi individuali nel lavoro di gruppo.
+
+Una sessione è pronta quando le quattro fasi di Kolb sono esplicite, la sequenza è realistica in 180 minuti e produce un output verificabile che prepara la fase successiva del disegno sequenziale.

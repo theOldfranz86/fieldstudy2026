@@ -1,27 +1,38 @@
 ---
 name: course-quality-review
-description: Verifica allineamento, chiarezza, carico, progressione, accessibilità e valutabilità dei materiali del corso.
+description: Audit Field Study 2 repository coherence and readiness after major changes or before weekly production, slide generation or course release. Check authoritative specifications, pedagogy, sequential methodology, milestones, materials and assessment without silently changing them.
 ---
 
-# Course quality review
+# Course Quality Review
 
-## Quando usarla
+Audit the documented course design and distinguish defects, inferences, missing decisions and non-blocking improvements.
 
-Usare questa skill prima di approvare una settimana, un deck, una consegna o una griglia di valutazione.
+## Audit workflow
 
-## Controlli
+1. Read `COURSE_CONTEXT.md`, all root YAML files and `curriculum/PEDAGOGICAL_FRAMEWORK.md`.
+2. Inspect curriculum, readings, slide design, weekly folders, project-management, evaluation and local skills.
+3. Parse YAML and verify identifiers, dates, weights, deliverables and terminology.
+4. Check pedagogical, methodological, ethical, organisational and production readiness.
+5. Return evidence, consequence, qualification and correction for every finding.
 
-1. Allineamento tra learning outcome, attività, deliverable e valutazione.
-2. Coerenza con calendario e checkpoint.
-3. Realismo del carico nelle tre ore disponibili.
-4. Chiarezza delle istruzioni per studenti e docente.
-5. Presenza di esempi, criteri e output osservabili.
-6. Coerenza tra fase qualitativa e quantitativa.
-7. Correttezza del ruolo di Sphinx.
-8. Assenza di informazioni inventate sul mandante.
-9. Leggibilità delle slide e riduzione del testo superfluo.
-10. Distinzione tra elementi confermati e decisioni aperte.
+## Required checks
 
-## Output
+- Official W01–W12 dates and exact `due_week`/`due_date` matches for M01–M04.
+- 180-minute sessions with briefing, workshop, group work, coaching, debriefing and all four Kolb phases.
+- Sequential qualitative → questionnaire → Sphinx → quantitative analysis → integrated recommendations.
+- At least one interview per student, qualitative-to-item traceability and at least 300 complete usable quantitative responses.
+- Quality-control record, data dictionary, evidence portfolio and individual accountability.
+- A1 50%, A2 50%, A3 formative 0%; no written report.
+- AI, privacy, raw-data publication, source attribution and ownership rules.
+- Five-file weekly planning gate before PPTX production.
+- No invented Maison Maye or institutional information.
 
-Restituire esito `APPROVATO`, `APPROVATO CON CORREZIONI` o `DA RIVEDERE`, seguito da problemi bloccanti, correzioni obbligatorie e miglioramenti facoltativi.
+## Verdict
+
+Return exactly one:
+
+- `READY_FOR_COURSE_PRODUCTION`
+- `READY_WITH_NON_BLOCKING_GAPS`
+- `NOT_READY_BLOCKING_GAPS`
+
+Classify findings as `BLOCKING`, `HIGH`, `MEDIUM` or `LOW`. Do not alter files during an audit unless the user explicitly asks for implementation.

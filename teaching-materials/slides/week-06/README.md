@@ -1,3 +1,5 @@
-# Week 06 — Dal qualitativo al questionario e checkpoint 2
+# W06 — Du qualitatif au questionnaire
 
-Produrre qui: `SESSION_PLAN.md`, `SLIDE_BRIEF.md`, `COACHING_GUIDE.md`, `DELIVERABLE.md`, `QUALITY_CHECKLIST.md` e, dopo approvazione, `slides.pptx`.
+Focus officiel : synthèse qualitative, matrice de traçabilité, questionnaire v1 et checkpoint M02.
+
+Produire ici les cinq fichiers de planification hebdomadaire avant tout `W06-slides.pptx`.

@@ -1,3 +1,5 @@
-# Week 12 — Difesa finale e checkpoint 4
+# W12 — Oral évalué et réflexion
 
-Produrre qui: `SESSION_PLAN.md`, `SLIDE_BRIEF.md`, `COACHING_GUIDE.md`, `DELIVERABLE.md`, `QUALITY_CHECKLIST.md` e, dopo approvazione, `slides.pptx`.
+Focus officiel : présentations de groupe, questions, défense méthodologique, responsabilité individuelle et briefing de l'examen.
+
+Produire ici les cinq fichiers de planification hebdomadaire avant tout `W12-slides.pptx`.

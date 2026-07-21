@@ -1,3 +1,5 @@
-# Week 04 — Disegno qualitativo
+# W04 — Design qualitatif
 
-Produrre qui: `SESSION_PLAN.md`, `SLIDE_BRIEF.md`, `COACHING_GUIDE.md`, `DELIVERABLE.md`, `QUALITY_CHECKLIST.md` e, dopo approvazione, `slides.pptx`.
+Focus officiel : sampling, recrutement, guide d'entretien, consentement et gestion des données.
+
+Produire ici les cinq fichiers de planification hebdomadaire avant tout `W04-slides.pptx`.

@@ -1,79 +1,45 @@
-# AGENTS.md
+# Istruzioni di repository
 
-## Missione
+## Finalità
 
-Questo repository supporta la progettazione e la produzione del corso applicato **Field Study 2 – Application**. Codex deve creare materiali coerenti, progressivi e direttamente utilizzabili in aula, con particolare attenzione alle slide settimanali, alle attività di gruppo, al coaching e alle milestone.
+Mantieni questo repository come fonte operativa per il corso **Field Study 2 – Application**. Il corso conduce i gruppi dal brief di Maison Maye alla raccolta qualitativa, alla costruzione del questionario quantitativo, all'analisi integrata e alla comunicazione orale di raccomandazioni evidence-based.
 
-## Fonti di verità
+## Gerarchia delle fonti
 
-Prima di generare o modificare contenuti, leggere nell’ordine:
+1. `COURSE_SPEC.yaml` definisce identità, risultati di apprendimento, formato didattico e disegno metodologico.
+2. `COURSE_SCHEDULE.yaml` definisce calendario e sequenza settimanale.
+3. `MILESTONES.yaml` definisce consegne, checkpoint, soglie di qualità e azioni di recupero.
+4. `ASSESSMENT_SPEC.yaml` definisce prove e requisiti valutativi.
+5. `curriculum/PEDAGOGICAL_FRAMEWORK.md` definisce il quadro pedagogico.
+6. I file in `curriculum/`, `project-management/`, `evaluation/` e `teaching-materials/` concretizzano tali specifiche.
 
-1. `COURSE_CONTEXT.md`
-2. `COURSE_SPEC.yaml`
-3. `COURSE_SCHEDULE.yaml`
-4. `MILESTONES.yaml`
-5. `ASSESSMENT_SPEC.yaml`
-6. `curriculum/weekly-plan.md`
+In caso di conflitto, aggiorna prima la fonte di livello superiore e poi propaga la modifica ai file dipendenti. Lo scaffold locale è autorevole rispetto a versioni remote precedenti; la pubblicazione Git avviene soltanto dopo i controlli di coerenza.
 
-In caso di conflitto prevale il file più specifico. Non inventare dati sul mandante: fino al brief della seconda settimana usare placeholder espliciti.
+## Decisioni stabili del corso
 
-## Principi didattici
+- 12 sessioni da 180 minuti, in francese.
+- Formato: breve briefing/apporto metodologico, workshop, lavoro di progetto e coaching.
+- Disegno sequenziale: ricerca qualitativa → sintesi tracciabile → questionario quantitativo → Sphinx → analisi integrata.
+- Almeno un'intervista qualitativa per studente, quindi almeno 38 interviste complessive.
+- Almeno 300 risposte quantitative complete utilizzabili per lo studio; il campione analitico finale è dichiarato dopo il controllo qualità.
+- Nessun rapporto scritto valutato: output sommativo di gruppo esclusivamente orale, sostenuto da portfolio di evidenze e recommendation package.
+- `A1_GROUP_ORAL` 50%, `A2_INDIVIDUAL_EXAM` 50%, `A3_PROJECT_PROCESS` 0% e formative only.
 
-- Corso applicato basato su un mandato reale.
-- Ogni sessione dura 3 ore.
-- I primi 30–60 minuti sono dedicati a dimostrazione, richiamo o briefing metodologico.
-- Il resto della sessione è dedicato al lavoro di gruppo e al coaching.
-- La teoria è introdotta just-in-time.
-- Ogni settimana deve produrre un avanzamento osservabile.
-- Ogni decisione metodologica importante deve essere giustificata.
-- L’IA non sostituisce comprensione, verifica, tracciabilità e difesa orale.
+## Protocollo di modifica
 
-## Produzione settimanale
+- Leggi `COURSE_CONTEXT.md` e le quattro specifiche YAML prima di modificare la progettazione didattica.
+- Mantieni invariati gli identificativi: `LO01`–`LO06`, `W01`–`W12`, `M01`–`M04`, `A1_GROUP_ORAL`, `A2_INDIVIDUAL_EXAM`, `A3_PROJECT_PROCESS`.
+- Registra una data solo dopo conferma; usa `null` o `TBD` per informazioni non disponibili.
+- Allinea ogni attività, consegna e criterio di valutazione ad almeno un learning outcome.
+- Non introdurre requisiti istituzionali, etici, logistici o valutativi non confermati.
+- Non inventare informazioni sul problema manageriale di Maison Maye prima del brief del 22.09.2026.
+- Non generare un PPTX prima che i cinque file settimanali siano completi e revisionati: `SESSION_PLAN.md`, `SLIDE_BRIEF.md`, `COACHING_GUIDE.md`, `DELIVERABLE.md`, `QUALITY_CHECKLIST.md`.
 
-Per ogni settimana creare in `teaching-materials/slides/week-XX/`:
+## Controlli minimi
 
-- `SESSION_PLAN.md`
-- `SLIDE_BRIEF.md`
-- `COACHING_GUIDE.md`
-- `DELIVERABLE.md`
-- `QUALITY_CHECKLIST.md`
-- `slides.pptx`, solo dopo approvazione del brief
-
-## Regole per le slide
-
-Ogni deck deve:
-
-- dichiarare l’obiettivo didattico;
-- essere breve e orientato all’azione;
-- includere almeno un esempio, controesempio o dimostrazione;
-- terminare con istruzioni operative per il lavoro di gruppo;
-- distinguere teoria, attività, deliverable e scadenze;
-- essere coerente con il checkpoint più vicino;
-- evitare contenuti non necessari alla fase corrente del progetto.
-
-## Fase qualitativa
-
-- Ogni studente realizza almeno un’intervista qualitativa.
-- Profili, campionamento, numero ulteriore e tecniche complementari dipendono dal mandato e devono essere motivati.
-- I risultati qualitativi devono informare la costruzione o il perfezionamento del questionario quantitativo.
-
-## Fase quantitativa
-
-Sphinx è lo strumento principale. Il flusso minimo è: progettazione, programmazione, pre-test, lancio, raccolta, chiusura, controllo qualità, analisi e interpretazione.
-
-## Checkpoint
-
-- Ogni 3 settimane.
-- Durata complessiva: 1 ora.
-- Il docente seleziona 2–3 gruppi per la presentazione.
-- Tutti i gruppi consegnano un progress report di massimo una pagina.
-- Feedback orale ai presentatori e scritto a tutti.
-
-## Valutazione
-
-- 50% progetto di gruppo, valutato oralmente.
-- 50% esame individuale di 90 minuti su caso pratico.
-
-## Definition of done
-
-Una settimana è completa solo quando obiettivi, attività, coaching, deliverable e scadenze sono allineati; il carico è realistico per 3 ore; il coaching è pianificato per circa 9 gruppi; il brief slide è stato controllato; e i materiali superano la checklist di qualità.
+- Verifica che ogni riferimento a LO, W, M e A esista nella specifica pertinente.
+- Verifica che i pesi valutativi certificativi sommino a 100; escludi A3 dal totale.
+- Verifica che `due_week` e `due_date` di ogni milestone coincidano con `COURSE_SCHEDULE.yaml`.
+- Verifica che ogni milestone abbia output osservabili, quality gate e risposta per i gruppi a rischio.
+- Verifica la tracciabilità evidenza qualitativa → item del questionario → variabile Sphinx → analisi → raccomandazione.
+- Mantieni i materiali didattici nominati con il prefisso della settimana, per esempio `W03-desk-research`.

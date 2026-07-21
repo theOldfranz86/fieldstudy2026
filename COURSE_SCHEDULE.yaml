@@ -1,41 +1,142 @@
+schema_version: "1.1"
+schedule:
+  academic_period: "2026–2027"
+  time_zone: "Europe/Zurich"
+  session_length_minutes: 180
+  default_session_pattern:
+    - "Activation or concrete experience"
+    - "Reflection and problematisation"
+    - "30–60 minute targeted methodological briefing or demonstration"
+    - "Workshop and application to the Maison Maye project"
+    - "Group coaching and formative feedback"
+    - "Debriefing and preparation for the next week"
+
 weeks:
-  - week: 1
-    focus: introduction_and_team_setup
-    outputs: [group_composition, group_leader, project_working_agreement]
-  - week: 2
-    focus: client_brief_and_problem_framing
-    outputs: [preliminary_managerial_problem, initial_hypotheses]
-  - week: 3
-    focus: desk_research_and_context
-    checkpoint: 1
-    outputs: [context_map, secondary_sources, research_problem_v1]
-  - week: 4
-    focus: qualitative_design
-    outputs: [stakeholder_map, sampling_plan, interview_guide]
-  - week: 5
-    focus: qualitative_fieldwork_and_analysis
-    outputs: [interviews_in_progress_or_completed, qualitative_evidence_matrix]
-  - week: 6
-    focus: questionnaire_design
-    checkpoint: 2
-    outputs: [qualitative_findings, questionnaire_v1, rationale_for_items]
-  - week: 7
-    focus: sphinx_programming_and_pretest
-    outputs: [programmed_questionnaire, pretest_log, final_questionnaire]
-  - week: 8
-    focus: quantitative_data_collection
-    outputs: [active_fieldwork, response_monitoring]
-  - week: 9
-    focus: fieldwork_closure_and_data_quality
-    checkpoint: 3
-    outputs: [closed_or_nearly_closed_collection, data_quality_report, analysis_plan]
-  - week: 10
-    focus: quantitative_analysis
-    outputs: [descriptive_analysis, relevant_comparisons, initial_visuals]
-  - week: 11
-    focus: interpretation_and_recommendations
-    outputs: [integrated_findings, managerial_recommendations, oral_storyline]
-  - week: 12
-    focus: final_defense_preparation
-    checkpoint: 4
-    outputs: [final_oral_presentation, methodological_defense, final_recommendations]
+  - id: "W01"
+    sequence: 1
+    calendar_date: "2026-09-15"
+    theme: "Course orientation, team formation and initial problem framing"
+    intended_outcomes: ["LO01", "LO06"]
+    learning_activities: ["Course and assessment briefing", "Initial problem-framing exercise", "Team formation and working agreement"]
+    expected_output: "Group composition, named responsibilities, draft team charter and initial problem map"
+    material_path: "teaching-materials/slides/week-01/"
+    milestone: null
+
+  - id: "W02"
+    sequence: 2
+    calendar_date: "2026-09-22"
+    theme: "Maison Maye brief and conversion of a managerial problem into a research problem"
+    intended_outcomes: ["LO01", "LO06"]
+    learning_activities: ["Client brief", "Clarification questions", "Stakeholder and hypothesis workshop"]
+    expected_output: "Preliminary managerial problem, stakeholder map, initial hypotheses and open-question register"
+    material_path: "teaching-materials/slides/week-02/"
+    milestone: null
+
+  - id: "W03"
+    sequence: 3
+    calendar_date: "2026-09-29"
+    theme: "Desk research, context analysis and research problem"
+    intended_outcomes: ["LO01", "LO06"]
+    learning_activities: ["Source-quality briefing", "Micro/macro context mapping", "Research-problem clinic", "M01 checkpoint"]
+    expected_output: "Problem brief, context map, secondary-source record, research question v1 and final team charter"
+    material_path: "teaching-materials/slides/week-03/"
+    milestone: "M01"
+
+  - id: "W04"
+    sequence: 4
+    calendar_date: "2026-10-06"
+    theme: "Qualitative design, sampling, recruitment and ethics"
+    intended_outcomes: ["LO02", "LO03"]
+    learning_activities: ["Sequential-design briefing", "Sampling and recruitment workshop", "Interview-guide and consent clinic"]
+    expected_output: "Qualitative protocol, sampling rationale, recruitment plan, interview guide and consent/data note"
+    material_path: "teaching-materials/slides/week-04/"
+    milestone: null
+
+  - id: "W05"
+    sequence: 5
+    calendar_date: "2026-10-13"
+    theme: "Qualitative fieldwork and thematic synthesis"
+    intended_outcomes: ["LO02", "LO03", "LO04", "LO06"]
+    learning_activities: ["Interview rehearsal and fieldwork review", "De-identified evidence-matrix workshop", "Thematic synthesis coaching"]
+    expected_output: "At least one interview per student completed or scheduled within the approved plan, de-identified evidence matrix and emerging themes"
+    material_path: "teaching-materials/slides/week-05/"
+    milestone: null
+
+  - id: "W06"
+    sequence: 6
+    calendar_date: "2026-10-20"
+    theme: "From qualitative findings to questionnaire version 1"
+    intended_outcomes: ["LO02", "LO03", "LO04"]
+    learning_activities: ["Qualitative debrief", "Evidence-to-item traceability workshop", "Questionnaire review", "M02 checkpoint"]
+    expected_output: "Qualitative findings, traceability matrix, questionnaire v1 ready for Sphinx programming and pre-test"
+    material_path: "teaching-materials/slides/week-06/"
+    milestone: "M02"
+
+  - id: "W07"
+    sequence: 7
+    calendar_date: "2026-10-27"
+    theme: "Sphinx programming, pre-test and quantitative sampling plan"
+    intended_outcomes: ["LO02", "LO03", "LO06"]
+    learning_activities: ["Sphinx demonstration", "Questionnaire programming", "Pre-test", "Launch-readiness coaching"]
+    expected_output: "Programmed questionnaire, pre-test log, revised instrument and collection plan for at least 300 complete usable responses"
+    material_path: "teaching-materials/slides/week-07/"
+    milestone: null
+
+  - id: "W08"
+    sequence: 8
+    calendar_date: "2026-11-03"
+    theme: "Quantitative data collection and response monitoring"
+    intended_outcomes: ["LO03", "LO06"]
+    learning_activities: ["Collection monitoring", "Recruitment adjustment within the approved plan", "Quality-warning review", "Coaching"]
+    expected_output: "Active collection, response-monitoring record and documented corrective actions"
+    material_path: "teaching-materials/slides/week-08/"
+    milestone: null
+
+  - id: "W09"
+    sequence: 9
+    calendar_date: "2026-11-10"
+    theme: "Collection closure, data quality and analysis planning"
+    intended_outcomes: ["LO03", "LO04", "LO06"]
+    learning_activities: ["Data-quality audit", "Data-dictionary workshop", "Analysis-plan clinic", "M03 checkpoint"]
+    expected_output: "Closed or formally bounded collection, dataset, quality-control record, evidence portfolio, interim findings and analysis plan"
+    material_path: "teaching-materials/slides/week-09/"
+    milestone: "M03"
+
+  - id: "W10"
+    sequence: 10
+    calendar_date: "2026-11-17"
+    theme: "Quantitative analysis and qualified interpretation"
+    intended_outcomes: ["LO04", "LO05"]
+    learning_activities: ["Sphinx analysis workshop", "Descriptive and relevant bivariate analysis", "Claim-evidence mapping", "Coaching"]
+    expected_output: "Quality-controlled descriptive results, relevant comparisons, visuals and initial interpretations"
+    material_path: "teaching-materials/slides/week-10/"
+    milestone: null
+
+  - id: "W11"
+    sequence: 11
+    calendar_date: "2026-11-24"
+    theme: "Integration of evidence, recommendations and oral readiness"
+    intended_outcomes: ["LO04", "LO05", "LO06"]
+    learning_activities: ["Qualitative-quantitative integration", "Recommendation stress test", "Oral storyline and rehearsal", "M04 checkpoint"]
+    expected_output: "Integrated findings, final evidence portfolio, recommendation package, oral deck and speaking plan"
+    material_path: "teaching-materials/slides/week-11/"
+    milestone: "M04"
+
+  - id: "W12"
+    sequence: 12
+    calendar_date: "2026-12-01"
+    theme: "Assessed group oral, reflection and individual exam briefing"
+    intended_outcomes: ["LO01", "LO04", "LO05", "LO06"]
+    learning_activities: ["Group oral presentations", "Questions and methodological defence", "Individual reflection", "Exam briefing"]
+    expected_output: "Assessed group oral presentation and documented individual accountability evidence"
+    material_path: "teaching-materials/slides/week-12/"
+    milestone: null
+    assessment_events: ["A1_GROUP_ORAL"]
+
+assessment_windows:
+  - component: "A2_INDIVIDUAL_EXAM"
+    format: "Individual written practical case"
+    duration_minutes: 90
+    period_start: "2027-01-11"
+    period_end: "2027-01-23"
+    exact_date: null

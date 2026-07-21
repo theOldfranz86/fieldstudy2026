@@ -1,0 +1,4 @@
+interface:
+  display_name: "Milestone Manager"
+  short_description: "Track project milestones and intervention needs."
+  default_prompt: "Use $milestone-manager to support Field Study 2: Application."

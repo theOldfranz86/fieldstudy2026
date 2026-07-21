@@ -1,3 +1,5 @@
-# Week 09 — Qualità dati e checkpoint 3
+# W09 — Clôture, qualité et plan d'analyse
 
-Produrre qui: `SESSION_PLAN.md`, `SLIDE_BRIEF.md`, `COACHING_GUIDE.md`, `DELIVERABLE.md`, `QUALITY_CHECKLIST.md` e, dopo approvazione, `slides.pptx`.
+Focus officiel : dataset, quality-control record, data dictionary, portfolio, interim findings, analysis plan et checkpoint M03.
+
+Produire ici les cinq fichiers de planification hebdomadaire avant tout `W09-slides.pptx`.

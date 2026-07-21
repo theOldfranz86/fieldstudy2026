@@ -1,3 +1,5 @@
-# Week 11 — Interpretazione e raccomandazioni
+# W11 — Intégration, recommandations et oral
 
-Produrre qui: `SESSION_PLAN.md`, `SLIDE_BRIEF.md`, `COACHING_GUIDE.md`, `DELIVERABLE.md`, `QUALITY_CHECKLIST.md` e, dopo approvazione, `slides.pptx`.
+Focus officiel : résultats intégrés, recommendation package, préparation orale et checkpoint M04; aucun rapport écrit.
+
+Produire ici les cinq fichiers de planification hebdomadaire avant tout `W11-slides.pptx`.

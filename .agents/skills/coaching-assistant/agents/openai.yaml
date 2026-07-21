@@ -1,0 +1,4 @@
+interface:
+  display_name: "Coaching Assistant"
+  short_description: "Provide formative coaching for field-study teams."
+  default_prompt: "Use $coaching-assistant to support Field Study 2: Application."
