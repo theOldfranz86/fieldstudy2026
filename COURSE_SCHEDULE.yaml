@@ -1,0 +1,41 @@
+weeks:
+  - week: 1
+    focus: introduction_and_team_setup
+    outputs: [group_composition, group_leader, project_working_agreement]
+  - week: 2
+    focus: client_brief_and_problem_framing
+    outputs: [preliminary_managerial_problem, initial_hypotheses]
+  - week: 3
+    focus: desk_research_and_context
+    checkpoint: 1
+    outputs: [context_map, secondary_sources, research_problem_v1]
+  - week: 4
+    focus: qualitative_design
+    outputs: [stakeholder_map, sampling_plan, interview_guide]
+  - week: 5
+    focus: qualitative_fieldwork_and_analysis
+    outputs: [interviews_in_progress_or_completed, qualitative_evidence_matrix]
+  - week: 6
+    focus: questionnaire_design
+    checkpoint: 2
+    outputs: [qualitative_findings, questionnaire_v1, rationale_for_items]
+  - week: 7
+    focus: sphinx_programming_and_pretest
+    outputs: [programmed_questionnaire, pretest_log, final_questionnaire]
+  - week: 8
+    focus: quantitative_data_collection
+    outputs: [active_fieldwork, response_monitoring]
+  - week: 9
+    focus: fieldwork_closure_and_data_quality
+    checkpoint: 3
+    outputs: [closed_or_nearly_closed_collection, data_quality_report, analysis_plan]
+  - week: 10
+    focus: quantitative_analysis
+    outputs: [descriptive_analysis, relevant_comparisons, initial_visuals]
+  - week: 11
+    focus: interpretation_and_recommendations
+    outputs: [integrated_findings, managerial_recommendations, oral_storyline]
+  - week: 12
+    focus: final_defense_preparation
+    checkpoint: 4
+    outputs: [final_oral_presentation, methodological_defense, final_recommendations]
