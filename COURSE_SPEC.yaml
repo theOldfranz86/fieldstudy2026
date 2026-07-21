@@ -1,0 +1,60 @@
+course:
+  id: field-study-2-application
+  academic_year: 2026-2027
+  duration_weeks: 12
+  weekly_hours: 3
+  students: 38
+  groups_approx: 9
+  delivery_mode: project_based
+  primary_tool: Sphinx
+
+session_model:
+  briefing_minutes_min: 30
+  briefing_minutes_max: 60
+  remaining_time: group_work_and_coaching
+  required_components:
+    - methodological_refresh
+    - demonstration_or_example
+    - group_work
+    - coaching
+    - progress_check
+
+pedagogy:
+  - project_based_learning
+  - authentic_assessment
+  - just_in_time_teaching
+  - formative_feedback
+  - milestone_based_learning
+  - individual_accountability
+  - collective_responsibility
+
+qualitative_phase:
+  minimum_interviews_per_student: 1
+  total_minimum_interviews: 38
+  additional_design_decisions: mandate_dependent
+  methodological_freedom: true
+  required_justification:
+    - participant_profiles
+    - sampling_strategy
+    - interview_guide
+    - data_collection
+    - analysis_method
+    - link_to_quantitative_phase
+
+quantitative_phase:
+  platform: Sphinx
+  required_flow:
+    - questionnaire_design
+    - programming
+    - pretest
+    - launch
+    - data_collection
+    - closure
+    - quality_control
+    - analysis
+    - interpretation
+
+mandate:
+  briefing_week: 2
+  abstract_from_specific_client: true
+  specific_materials_path: client-brief

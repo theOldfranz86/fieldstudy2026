@@ -1,0 +1,46 @@
+checkpoints:
+  cadence_weeks: 3
+  duration_minutes: 60
+  presenting_groups_per_checkpoint:
+    min: 2
+    max: 3
+  selected_by: instructor
+  all_groups_submit_progress_report: true
+  feedback:
+    oral: presenting_groups
+    written: all_groups
+
+  items:
+    - id: CP1
+      week: 3
+      title: Research framing
+      evidence: [managerial_problem, desk_research, context_analysis, research_questions]
+      decision_gate: approve_research_direction
+
+    - id: CP2
+      week: 6
+      title: From qualitative evidence to questionnaire
+      evidence: [qualitative_fieldwork_status, qualitative_findings, questionnaire_draft, methodological_link]
+      decision_gate: authorize_sphinx_programming
+
+    - id: CP3
+      week: 9
+      title: Data collection and analysis readiness
+      evidence: [fieldwork_status, response_profile, data_quality_checks, analysis_plan]
+      decision_gate: authorize_final_analysis
+
+    - id: CP4
+      week: 12
+      title: Interpretation and defense readiness
+      evidence: [integrated_results, limitations, recommendations, oral_storyline]
+      decision_gate: authorize_final_defense
+
+progress_report:
+  max_pages: 1
+  required_sections:
+    - completed_deliverables
+    - current_work
+    - methodological_decisions
+    - problems_and_risks
+    - next_deadline
+    - support_requested
