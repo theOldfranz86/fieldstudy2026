@@ -1,0 +1,37 @@
+assessment:
+  group_project:
+    weight_percent: 50
+    mode: oral
+    group_based: true
+    purpose: evaluate_collective_project_quality_and_methodological_defense
+    dimensions:
+      - managerial_problem_understanding
+      - methodological_design
+      - data_collection_quality
+      - analysis_quality
+      - interpretation
+      - managerial_recommendations
+      - oral_defense
+    ai_rationale: oral_defense_reduces_unverified_ai_generated_work
+
+  individual_exam:
+    weight_percent: 50
+    duration_minutes: 90
+    mode: practical_case
+    individual: true
+    competencies:
+      - diagnose_managerial_problem
+      - formulate_research_questions
+      - select_methodology
+      - critique_questionnaire
+      - interpret_sphinx_outputs
+      - identify_limitations
+      - formulate_recommendations
+
+open_decisions:
+  - exact_oral_duration_per_group
+  - individual_questions_during_group_oral
+  - milestone_contribution_to_group_grade
+  - late_submission_policy
+  - authorized_ai_use
+  - final_language
